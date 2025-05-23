@@ -31,7 +31,7 @@
 
             <!-- Desktop User Menu -->
             <flux:dropdown position="bottom" align="start">
-                <flux:profile
+                {{--<flux:profile
                     :name="auth()->user()->name"
                     :initials="auth()->user()->initials()"
                     icon-trailing="chevrons-up-down"
@@ -71,7 +71,7 @@
                             {{ __('Log Out') }}
                         </flux:menu.item>
                     </form>
-                </flux:menu>
+                </flux:menu>--}}
             </flux:dropdown>
         </flux:sidebar>
 
@@ -82,7 +82,7 @@
             <flux:spacer />
 
             <flux:dropdown position="top" align="end">
-                <flux:profile
+                {{--<flux:profile
                     :initials="auth()->user()->initials()"
                     icon-trailing="chevron-down"
                 />
@@ -121,7 +121,7 @@
                             {{ __('Log Out') }}
                         </flux:menu.item>
                     </form>
-                </flux:menu>
+                </flux:menu>--}}
             </flux:dropdown>
         </flux:header>
 
